@@ -6,6 +6,9 @@ export const Container = styled.div`
   border-radius: 4px;
 
   footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 30px;
     background: #fff;
     border-radius: 4px;
@@ -13,7 +16,7 @@ export const Container = styled.div`
     button {
       background: #7159c1;
       border: 0;
-      padding: 6px 10px;
+      padding: 10px 12px;
       color: #fff;
       text-align: center;
       border-radius: 4px;
@@ -73,4 +76,17 @@ export const ProductTable = styled.table`
   }
 `;
 
-export const Total = styled.div``;
+export const Total = styled.div`
+  display: flex;
+  align-items: baseline;
+
+  span {
+    color: #999;
+    font-size: 12px;
+    margin-right: 5px;
+  }
+
+  strong {
+    font-size: 21px;
+  }
+`;
